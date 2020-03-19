@@ -205,11 +205,12 @@ main {
     }
   }
 
-  #datetime-content {
+  #datetime-content, #tickets-content {
     display: flex;
 
     & > div {
       flex: 1;
+      margin-bottom: 24px;
     }
   }
 
@@ -389,7 +390,7 @@ footer {
     line-height: calc(#{$sp-font-line-base-size} * 0.6);
   }
 
-  #datetime-content {
+  #datetime-content, #tickets-content {
     flex-direction: column;
   }
 }
@@ -445,7 +446,7 @@ footer {
     line-height: calc(#{$pc-font-line-base-size} * 0.8);
   }
   
-  #datetime-content {
+  #datetime-content, #tickets-content {
     flex-direction: row;
   }
 }
@@ -500,7 +501,7 @@ footer {
     line-height: calc(#{$pc-font-line-base-size} * 0.8);
   }
 
-  #datetime-content {
+  #datetime-content, #tickets-content {
     flex-direction: row;
   }
 }
